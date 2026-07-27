@@ -29,7 +29,7 @@ Nhóm gồm 12 thành viên. Thay vì mỗi người trình bày top 3 (sẽ t�
 |---|---|---|---|---|---|
 | 1 | Nguyễn Văn Đạt | Trưởng nhóm đồ án mất 60-90 phút mỗi lần gom dữ liệu từ nhiều nguồn và viết narrative cho báo cáo tiến độ, dẫn đến nộp trễ hoặc báo cáo thiếu insight | Trưởng nhóm đồ án | Viết narrative từ dữ liệu thô | 60-90 phút/lần |
 | 2 | Nguyễn Kim Trung Đức | Giáo viên chủ nhiệm phải viết lời phê riêng và nhập điểm học bạ cuối kỳ cho hơn 40 học sinh, trong khi kỹ năng tin học hạn chế nên thao tác chậm và dễ nhập sai | Giáo viên chủ nhiệm bậc phổ thông | Viết lời phê riêng cho từng em + thao tác nhập liệu thủ công | ≈4 phút viết lời phê + ≈2 phút nhập điểm mỗi học sinh → **≈4 giờ/lớp mỗi cuối kỳ**; GVCN thường phụ trách nhiều lớp |
-| 3 | Nguyễn Trọng Toàn  | Sinh viên không kiểm soát được chi tiêu hằng tháng vì giao dịch nằm rải rác giữa tiền mặt, tài khoản ngân hàng và ví điện tử, phải mở nhiều ứng dụng mới tổng hợp được | Sinh viên tự quản lý chi tiêu | Gom giao dịch từ 3+ nguồn về một chỗ | ≈4 nguồn (tiền mặt, 1-2 app ngân hàng, 1-2 ví điện tử); **≈45 phút/tháng** nếu làm nghiêm túc — và phần lớn bỏ giữa chừng sau 2-3 tháng |
+| 3 | Nguyễn Trọng Toàn | Sinh viên không kiểm soát được chi tiêu hằng tháng vì giao dịch nằm rải rác giữa tiền mặt, tài khoản ngân hàng và ví điện tử, phải mở nhiều ứng dụng mới tổng hợp được | Sinh viên tự quản lý chi tiêu | Gom giao dịch từ 3+ nguồn về một chỗ | ≈4 nguồn (tiền mặt, 1-2 app ngân hàng, 1-2 ví điện tử); **≈45 phút/tháng** nếu làm nghiêm túc — và phần lớn bỏ giữa chừng sau 2-3 tháng |
 | 4 | Nguyễn Hữu Kiên | Người phải báo cáo tuần mất thời gian tổng hợp lại các task đã làm rồi chuyển thành slide, làm lại thủ công mỗi tuần | Nhân viên / sinh viên phải báo cáo định kỳ | Chuyển từ danh sách task sang slide có bố cục | **≈40 phút/tuần** → ≈2,5 giờ/tháng |
 | 5 | Lê Hồng Đức | Mỗi đợt tuyển dụng, recruiter phải đọc thủ công hàng trăm CV để lọc ứng viên phù hợp, khiến vòng sàng lọc kéo dài nhiều ngày và dễ bỏ sót ứng viên tốt | Recruiter / bộ phận tuyển dụng | Đọc và đối chiếu từng CV với JD | Hàng trăm CV/đợt, kéo dài nhiều ngày |
 | 6 | Nguyễn Thế Khải | Trợ giảng mất 4-5 giờ mỗi tuần trực Discord môn học, trong đó hơn một nửa số câu đã từng được trả lời trước đó, khiến câu hỏi khó thật sự bị trả lời chậm | TA + sinh viên hỏi câu khó | Trả lời lặp lại câu đã có đáp án trong lịch sử chat | 4-5 giờ/tuần, >50% câu trùng |
@@ -75,28 +75,34 @@ Nhóm gồm 12 thành viên. Thay vì mỗi người trình bày top 3 (sẽ t�
 
 ## Shortlist và score
 
-Nhóm rút gọn danh sách xuống 3 candidates tiêu biểu nhất đại diện cho các cluster để chấm điểm:
+Từ 6 cluster, nhóm chọn ra 3 candidates đại diện cho 3 cluster mạnh nhất để chấm điểm. Cơ sở chọn: cụm **C** có bài mà cả 12 thành viên đều là actor; cụm **B** và **D** được nhận xét là hai cụm có pattern chặt nhất ở bước gom trùng.
 
-| Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|
-| **1. Tạo Quiz & Note từ Slide ôn thi** (#8, cụm C) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
-| **2. Review Tone-of-Voice CTV CLB** | 5 | 4 | 4 | 4 | 4 | 4 | 4 | **29** |
-| **3. Gom hóa đơn & Chia tiền phòng trọ** | 5 | 4 | 4 | 3 | 4 | 4 | 5 | **29** |
+| Candidate | Cụm | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| **#8. Tạo Quiz & Note từ Slide ôn thi** | C | 5 | 5 | 4 | 5 | 5 | 5 | 5 | **34** |
+| **#6. TA trực Discord trả lời câu lặp lại** | B | 5 | 4 | 5 | 4 | 3 | 5 | 3 | **29** |
+| **#5. Recruiter lọc hàng trăm CV mỗi đợt** | D | 5 | 4 | 3 | 4 | 3 | 4 | 2 | **25** |
 
+Giải thích vài ô điểm đáng chú ý:
 
-Nhóm chọn: **Tạo Quiz & Note tự ôn tập từ Slide bài giảng (Case Sinh viên ôn thi cuối kỳ)**.
+- **#8 chỉ được 4 ở "Pain có evidence"** dù được chọn. Lúc chấm điểm nhóm mới có ước lượng ≈2 giờ/môn của người trình bày, chưa có interview hay poll. Bằng chứng thật chỉ đến ở bước Quick validation phía sau. Cho 5 điểm ngay lúc này là chấm theo cảm tính chứ không theo dữ liệu đang có.
+- **#6 được 5 ở "Pain có evidence" — cao nhất bảng.** Con số 4-5 giờ/tuần và >50% câu trùng đếm được trực tiếp từ lịch sử Discord, không phụ thuộc trí nhớ. Đây là candidate có bằng chứng chắc nhất trong cả 12.
+- **#6 chỉ được 3 ở "Nhóm hiểu domain"** vì không ai trong nhóm đang làm TA. #5 còn thấp hơn (2 điểm) vì không ai làm tuyển dụng.
+- **#5 chỉ được 3 ở "Pain có evidence"** vì "hàng trăm CV, kéo dài nhiều ngày" chưa phải con số cụ thể, và nhóm không có cách nào đếm lại.
+
+Nhóm chọn: **Tạo Quiz & Note tự ôn tập từ Slide bài giảng (Case Sinh viên ôn thi cuối kỳ)** — candidate #8, cụm C.
 
 Vì sao chọn:
 
-- **Workflow rõ ràng nhất:** Quy trình chuẩn bị bài và ôn thi trước kỳ thi tuân theo các bước cố định (Tải slide → Đọc lướt → Soạn đề → Ôn tập).
-- **Thấu hiểu domain:** Cả 12 thành viên nhóm đều là sinh viên, trực tiếp trải qua nỗi đau này mỗi mùa thi nên thấu hiểu bối cảnh và điều kiện thực tế.
-- **Metric thời gian đo lường rõ ràng:** Có baseline 3-4 tiếng/môn trước kỳ thi; dễ dàng đo lường sự cắt giảm thời gian sau khi tối ưu.
-- **Có thể vẽ before/after và so sánh R/W/A minh bạch:** Thể hiện rõ vai trò của Rule (PDF Parser), Workflow (AI sinh Quiz) và Human Boundary (Sinh viên review).
+- **Thấu hiểu domain:** Cả 12 thành viên nhóm đều là sinh viên, trực tiếp trải qua nỗi đau này mỗi mùa thi. Đây là tiêu chí #8 hơn hẳn hai bài còn lại (5 điểm so với 3 và 2), và cũng là tiêu chí quyết định — nhóm không hiểu domain thì không challenge được chính mình.
+- **Kiểm chứng được ngay trong lab:** actor ở ngay trong lớp, nên nhóm chạy được interview 4 người và poll 10 người trong thời gian lab. Hai bài kia phải đi tìm TA hoặc recruiter bên ngoài.
+- **Workflow rõ ràng nhất:** quy trình ôn thi đi theo các bước cố định (Tải slide → Đọc lướt → Soạn đề → Ôn tập), lặp lại mỗi kỳ nên vẽ before/after chính xác được.
+- **Metric đo được cả thời gian lẫn chất lượng:** baseline 180 phút/môn, và chất lượng bộ Quiz kiểm được bằng cách đối chiếu đáp án với slide.
 
-Vì sao không chọn các bài khác:
+Vì sao không chọn hai bài còn lại:
 
-- **Review Tone-of-Voice CTV CLB:** Workflow khá tốt nhưng phạm vi tác động hẹp (chỉ sinh viên làm CLB truyền thông), tiêu chuẩn đánh giá "văn phong hay/đúng style" mang tính cảm tính, khó thống nhất metric chất lượng trong thời gian lab.
-- **Gom hóa đơn & Chia tiền phòng trọ:** Pain thật nhưng logic chia tiền phần lớn giải quyết được bằng công thức toán học/Rule (Splitwise), thành phần AI (OCR đọc ảnh hóa đơn) dễ bị nhiễu do chất lượng ảnh chụp hóa đơn mờ.
+- **#6 — TA trực Discord:** đây là bài có **bằng chứng tốt nhất** trong cả 12 candidates, và nhóm thừa nhận điều đó. Lý do loại không nằm ở chất lượng problem mà ở khả năng thực hiện: không ai trong nhóm đang làm TA nên không tự kiểm chứng được workflow, và cần quyền truy cập lịch sử Discord của môn học để lấy dữ liệu. Ngoài ra nhóm nghi ngờ một FAQ ghim đầu kênh (thuần Rule) đã giải được phần lớn, khiến phần AI còn lại nhỏ hơn vẻ ngoài.
+- **#5 — Lọc CV:** loại vì hai rủi ro nghiêm trọng hơn cả điểm số. Thứ nhất, hậu quả khi AI sai rơi vào **người ngoài cuộc**: ứng viên bị loại nhầm không bao giờ biết mình bị loại và không có cơ chế khiếu nại — bài toán này đòi hỏi chuẩn công bằng và cơ chế kiểm tra vượt quá phạm vi một buổi lab. Thứ hai, CV là dữ liệu cá nhân, nhóm không có cách lấy dữ liệu thật hợp lệ để thử nghiệm.
 
 ---
 
