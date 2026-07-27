@@ -1,6 +1,3 @@
-Dưới đây là toàn bộ nội dung đã được chuyển sang **Markdown chuẩn**, giữ nguyên cấu trúc, nội dung và các bảng để bạn có thể copy trực tiếp vào file `README.md`, `report.md` hoặc GitHub.
-
-````markdown
 # 01 — Individual Problem Scan
 
 ## Bối cảnh cá nhân
