@@ -4,7 +4,7 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm |
 |-----|-----------|-------------|--------------------|
-| 1   | Nguyễn Văn Đạt | 2A202601968 | Nhóm trưởng |
+| 1   | Nguyễn Văn Đạt | 2A202601969 | Nhóm trưởng |
 | 2   | Nguyễn Trọng Toàn | 2A202601493 | Thành viên |
 | 3   | Hoàng Nguyễn Phong | 2A202601077 | Thành viên |
 | 4   | Nguyễn Đình Phúc | 2A202601835 | Thành viên |
@@ -21,28 +21,25 @@
 
 ## Group convergence
 
-### Bước 3.1 — Trình bày candidate problems
+### Trình bày candidate problems
 
 Nhóm gồm 12 thành viên. Thay vì mỗi người trình bày top 3 (sẽ tạo ra 36 candidates, quá nhiều để hội tụ trong 30 phút), nhóm thống nhất **mỗi người chỉ trình bày 1 problem tâm đắc nhất** — tổng cộng 12 candidates. Cách này buộc mỗi người tự lọc trước khi lên nói, và để lại đủ thời gian cho phần challenge.
 
 | # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Dấu hiệu ban đầu |
 |---|---|---|---|---|---|
-| 1 | | Trưởng nhóm đồ án mất 60-90 phút mỗi lần gom dữ liệu từ nhiều nguồn và viết narrative cho báo cáo tiến độ, dẫn đến nộp trễ hoặc báo cáo thiếu insight | Trưởng nhóm đồ án | Viết narrative từ dữ liệu thô | 60-90 phút/lần |
-| 2 | | Giáo viên chủ nhiệm phải viết lời phê riêng và nhập điểm học bạ cuối kỳ cho hơn 40 học sinh, trong khi kỹ năng tin học hạn chế nên thao tác chậm và dễ nhập sai | Giáo viên chủ nhiệm bậc phổ thông | Viết lời phê riêng cho từng em + thao tác nhập liệu thủ công | ≈4 phút viết lời phê + ≈2 phút nhập điểm mỗi học sinh → **≈4 giờ/lớp mỗi cuối kỳ**; GVCN thường phụ trách nhiều lớp |
-| 3 | | Sinh viên không kiểm soát được chi tiêu hằng tháng vì giao dịch nằm rải rác giữa tiền mặt, tài khoản ngân hàng và ví điện tử, phải mở nhiều ứng dụng mới tổng hợp được | Sinh viên tự quản lý chi tiêu | Gom giao dịch từ 3+ nguồn về một chỗ | ≈4 nguồn (tiền mặt, 1-2 app ngân hàng, 1-2 ví điện tử); **≈45 phút/tháng** nếu làm nghiêm túc — và phần lớn bỏ giữa chừng sau 2-3 tháng |
-| 4 | | Người phải báo cáo tuần mất thời gian tổng hợp lại các task đã làm rồi chuyển thành slide, làm lại thủ công mỗi tuần | Nhân viên / sinh viên phải báo cáo định kỳ | Chuyển từ danh sách task sang slide có bố cục | **≈40 phút/tuần** → ≈2,5 giờ/tháng |
-| 5 | | Mỗi đợt tuyển dụng, recruiter phải đọc thủ công hàng trăm CV để lọc ứng viên phù hợp, khiến vòng sàng lọc kéo dài nhiều ngày và dễ bỏ sót ứng viên tốt | Recruiter / bộ phận tuyển dụng | Đọc và đối chiếu từng CV với JD | Hàng trăm CV/đợt, kéo dài nhiều ngày |
-| 6 | | Trợ giảng mất 4-5 giờ mỗi tuần trực Discord môn học, trong đó hơn một nửa số câu đã từng được trả lời trước đó, khiến câu hỏi khó thật sự bị trả lời chậm | TA + sinh viên hỏi câu khó | Trả lời lặp lại câu đã có đáp án trong lịch sử chat | 4-5 giờ/tuần, >50% câu trùng |
-| 7 | | Người dùng đăng ký free trial hoặc dịch vụ trả phí theo lượt nhưng quên hủy trước hạn nên bị trừ tiền ngoài ý muốn | Người dùng cá nhân | Không có nơi tập trung theo dõi ngày hết hạn | ≈2-3 lần bị trừ oan mỗi năm, ≈200k/lần → **≈500k/năm**; thiệt hại nhỏ nhưng gây ức chế cao |
-| 8 | | Sinh viên phải tự soạn câu hỏi ôn tập từ kiến thức thô cho 6-7 môn mỗi kỳ; tự soạn vừa tốn thời gian vừa cho ra câu hỏi quá dễ, không sát dạng đề thi thật | Sinh viên ôn thi cuối kỳ | Biến slide/giáo trình thành câu hỏi sát dạng đề | ≈2 giờ/môn × 6-7 môn → **≈13 giờ/kỳ**; và chất lượng câu hỏi tự soạn thường quá dễ so với đề thật |
-| 9 | | Người làm nội dung mất nhiều thời gian ở ba bước nối tiếp khi Việt hoá video nước ngoài: dịch phụ đề, tạo giọng đọc từ văn bản, và đồng bộ phụ đề với hình | Người làm nội dung / dịch video | Đồng bộ phụ đề — bước cuối, phụ thuộc kết quả hai bước trước | Video ≈10 phút cần **≈3 giờ xử lý** (dịch ≈60' + tạo voice ≈30' + sync ≈90'); riêng sync chiếm ≈50% |
+| 1 | Nguyễn Văn Đạt | Trưởng nhóm đồ án mất 60-90 phút mỗi lần gom dữ liệu từ nhiều nguồn và viết narrative cho báo cáo tiến độ, dẫn đến nộp trễ hoặc báo cáo thiếu insight | Trưởng nhóm đồ án | Viết narrative từ dữ liệu thô | 60-90 phút/lần |
+| 2 | Nguyễn Kim Trung Đức | Giáo viên chủ nhiệm phải viết lời phê riêng và nhập điểm học bạ cuối kỳ cho hơn 40 học sinh, trong khi kỹ năng tin học hạn chế nên thao tác chậm và dễ nhập sai | Giáo viên chủ nhiệm bậc phổ thông | Viết lời phê riêng cho từng em + thao tác nhập liệu thủ công | ≈4 phút viết lời phê + ≈2 phút nhập điểm mỗi học sinh → **≈4 giờ/lớp mỗi cuối kỳ**; GVCN thường phụ trách nhiều lớp |
+| 3 | Nguyễn Trọng Toàn  | Sinh viên không kiểm soát được chi tiêu hằng tháng vì giao dịch nằm rải rác giữa tiền mặt, tài khoản ngân hàng và ví điện tử, phải mở nhiều ứng dụng mới tổng hợp được | Sinh viên tự quản lý chi tiêu | Gom giao dịch từ 3+ nguồn về một chỗ | ≈4 nguồn (tiền mặt, 1-2 app ngân hàng, 1-2 ví điện tử); **≈45 phút/tháng** nếu làm nghiêm túc — và phần lớn bỏ giữa chừng sau 2-3 tháng |
+| 4 | Nguyễn Hữu Kiên | Người phải báo cáo tuần mất thời gian tổng hợp lại các task đã làm rồi chuyển thành slide, làm lại thủ công mỗi tuần | Nhân viên / sinh viên phải báo cáo định kỳ | Chuyển từ danh sách task sang slide có bố cục | **≈40 phút/tuần** → ≈2,5 giờ/tháng |
+| 5 | Lê Hồng Đức | Mỗi đợt tuyển dụng, recruiter phải đọc thủ công hàng trăm CV để lọc ứng viên phù hợp, khiến vòng sàng lọc kéo dài nhiều ngày và dễ bỏ sót ứng viên tốt | Recruiter / bộ phận tuyển dụng | Đọc và đối chiếu từng CV với JD | Hàng trăm CV/đợt, kéo dài nhiều ngày |
+| 6 | Nguyễn Thế Khải | Trợ giảng mất 4-5 giờ mỗi tuần trực Discord môn học, trong đó hơn một nửa số câu đã từng được trả lời trước đó, khiến câu hỏi khó thật sự bị trả lời chậm | TA + sinh viên hỏi câu khó | Trả lời lặp lại câu đã có đáp án trong lịch sử chat | 4-5 giờ/tuần, >50% câu trùng |
+| 7 | Nguyễn Đức Thiện | Người dùng đăng ký free trial hoặc dịch vụ trả phí theo lượt nhưng quên hủy trước hạn nên bị trừ tiền ngoài ý muốn | Người dùng cá nhân | Không có nơi tập trung theo dõi ngày hết hạn | ≈2-3 lần bị trừ oan mỗi năm, ≈200k/lần → **≈500k/năm**; thiệt hại nhỏ nhưng gây ức chế cao |
+| 8 | Nguyễn Việt Thắng | Sinh viên phải tự soạn câu hỏi ôn tập từ kiến thức thô cho 6-7 môn mỗi kỳ; tự soạn vừa tốn thời gian vừa cho ra câu hỏi quá dễ, không sát dạng đề thi thật | Sinh viên ôn thi cuối kỳ | Biến slide/giáo trình thành câu hỏi sát dạng đề | ≈2 giờ/môn × 6-7 môn → **≈13 giờ/kỳ**; và chất lượng câu hỏi tự soạn thường quá dễ so với đề thật |
+| 9 | Kim Duy Hưng | Người làm nội dung mất nhiều thời gian ở ba bước nối tiếp khi Việt hoá video nước ngoài: dịch phụ đề, tạo giọng đọc từ văn bản, và đồng bộ phụ đề với hình | Người làm nội dung / dịch video | Đồng bộ phụ đề — bước cuối, phụ thuộc kết quả hai bước trước | Video ≈10 phút cần **≈3 giờ xử lý** (dịch ≈60' + tạo voice ≈30' + sync ≈90'); riêng sync chiếm ≈50% |
 | 10 | Hoàng Nguyễn Phong | Intern hoặc dev mới mất nhiều giờ đọc codebase và tài liệu rải rác mới hiểu đủ ngữ cảnh để bắt đầu một task được giao | Intern / dev mới dưới 3 tháng | Chờ mentor giải thích ngữ cảnh nghiệp vụ | ≈3 giờ/task (ước lượng), ≈2 task mới/tuần |
-| 11 | | Sinh viên đã xác định được mục tiêu học tập nhưng không biết chọn tài liệu nào và học theo thứ tự ra sao cho phù hợp trình độ hiện tại | Sinh viên tự học | Chọn và sắp thứ tự tài liệu | ≈2-3 tuần loay hoay chọn tài liệu trước khi thật sự bắt đầu học. **Đây là con số yếu nhất bảng** — xem ghi chú bên dưới |
-| 12 | | Kỹ sư khi vẽ bản vẽ AutoCAD phải tự đối chiếu quá nhiều quy chuẩn, dễ bỏ sót lỗi và phải sửa lại ở vòng kiểm tra sau | Kỹ sư thiết kế | Đối chiếu thủ công bản vẽ với bộ quy chuẩn | ≈20 quy chuẩn phải đối chiếu mỗi bản vẽ; **≈3 lỗi bị phát hiện muộn** ở vòng kiểm tra, mỗi vòng sửa mất ≈1 ngày |
+| 11 | Vũ Minh Đức | Sinh viên đã xác định được mục tiêu học tập nhưng không biết chọn tài liệu nào và học theo thứ tự ra sao cho phù hợp trình độ hiện tại | Sinh viên tự học | Chọn và sắp thứ tự tài liệu | ≈2-3 tuần loay hoay chọn tài liệu trước khi thật sự bắt đầu học. **Đây là con số yếu nhất bảng** — xem ghi chú bên dưới |
+| 12 | Nguyễn Đình Phúc | Kỹ sư khi vẽ bản vẽ AutoCAD phải tự đối chiếu quá nhiều quy chuẩn, dễ bỏ sót lỗi và phải sửa lại ở vòng kiểm tra sau | Kỹ sư thiết kế | Đối chiếu thủ công bản vẽ với bộ quy chuẩn | ≈20 quy chuẩn phải đối chiếu mỗi bản vẽ; **≈3 lỗi bị phát hiện muộn** ở vòng kiểm tra, mỗi vòng sửa mất ≈1 ngày |
 
-> **⚠️ Toàn bộ số liệu trong cột cuối đang là ƯỚC LƯỢNG của người trình bày, chưa bấm giờ và chưa đếm từ log.** Nhóm ghi rõ như vậy thay vì để trống hoặc trình bày như số đã đo. Ba candidate vào shortlist sẽ phải kiểm chứng số thật ở Phase 4 trước khi viết Problem Statement.
->
-> **Còn thiếu:** cột `Người đưa ra` — cần điền tên 11 thành viên còn lại.
 
 **Độ tin cậy của số liệu — nhóm tự phân loại để không tự lừa mình khi chấm điểm:**
 
@@ -52,9 +49,9 @@ Nhóm gồm 12 thành viên. Thay vì mỗi người trình bày top 3 (sẽ t�
 | **Ước lượng hợp lý, kiểm chứng được** | 2, 3, 4, 8, 9, 10, 12 | Có đơn vị đo rõ ràng (phút/học sinh, giờ/môn, lỗi/bản vẽ) nên chỉ cần bấm giờ hoặc đếm một lần là ra số thật |
 | **Khó đo, cần thận trọng** | 7, 11 | #7 dựa vào trí nhớ về những lần đã quên — mà bản chất của việc quên là không nhớ. #11 tệ hơn: "2-3 tuần loay hoay" không có mốc bắt đầu và kết thúc rõ ràng, hai người đo sẽ ra hai kết quả khác nhau |
 
-**Hệ quả cho bước chấm điểm 3.4:** #11 nên bị trừ điểm ở tiêu chí *"Impact đo được"* — không phải vì vấn đề không có thật, mà vì hiện chưa ai nêu được cách đo. Nếu muốn giữ #11 trong shortlist thì phải định nghĩa lại metric trước, ví dụ đổi từ "thời gian loay hoay" sang "tỷ lệ người bỏ dở lộ trình trong 4 tuần đầu" — cái này đếm được.
+**Hệ quả cho bước chấm điểm:** #11 bị trừ điểm ở tiêu chí *"Impact đo được"* — không phải vì vấn đề không có thật, mà vì chưa ai nêu được cách đo. Nếu muốn giữ #11 trong shortlist thì phải định nghĩa lại metric trước, ví dụ đổi từ "thời gian loay hoay" sang "tỷ lệ người bỏ dở lộ trình trong 4 tuần đầu" — cái này đếm được.
 
-### Bước 3.2 — Gom trùng / cluster
+### Gom trùng / cluster
 
 | Cluster | Candidates | Pattern chung | Ghi chú |
 |---|---|---|---|
@@ -82,16 +79,17 @@ Nhóm rút gọn danh sách xuống 3 candidates tiêu biểu nhất đại di�
 
 | Candidate | Actor rõ | Workflow rõ | Pain có evidence | Impact đo được | Làm trong lab | So sánh R/W/A được | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| **1. Tạo Quiz & Note từ Slide ôn thi** | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
+| **1. Tạo Quiz & Note từ Slide ôn thi** (#8, cụm C) | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
 | **2. Review Tone-of-Voice CTV CLB** | 5 | 4 | 4 | 4 | 4 | 4 | 4 | **29** |
 | **3. Gom hóa đơn & Chia tiền phòng trọ** | 5 | 4 | 4 | 3 | 4 | 4 | 5 | **29** |
+
 
 Nhóm chọn: **Tạo Quiz & Note tự ôn tập từ Slide bài giảng (Case Sinh viên ôn thi cuối kỳ)**.
 
 Vì sao chọn:
 
-- **Workflow rõ ràng nhất:** Quy trình chuẩn bị bài và ôn thi trước kỳ thi tuân theo các bước cố định (Tải slide $\rightarrow$ Đọc lướt $\rightarrow$ Soạn đề $\rightarrow$ Ôn tập).
-- **Thấu hiểu domain:** Cả 4 thành viên nhóm đều là sinh viên, trực tiếp trải qua nỗi đau này mỗi mùa thi nên thấu hiểu bối cảnh và điều kiện thực tế.
+- **Workflow rõ ràng nhất:** Quy trình chuẩn bị bài và ôn thi trước kỳ thi tuân theo các bước cố định (Tải slide → Đọc lướt → Soạn đề → Ôn tập).
+- **Thấu hiểu domain:** Cả 12 thành viên nhóm đều là sinh viên, trực tiếp trải qua nỗi đau này mỗi mùa thi nên thấu hiểu bối cảnh và điều kiện thực tế.
 - **Metric thời gian đo lường rõ ràng:** Có baseline 3-4 tiếng/môn trước kỳ thi; dễ dàng đo lường sự cắt giảm thời gian sau khi tối ưu.
 - **Có thể vẽ before/after và so sánh R/W/A minh bạch:** Thể hiện rõ vai trò của Rule (PDF Parser), Workflow (AI sinh Quiz) và Human Boundary (Sinh viên review).
 
@@ -104,7 +102,7 @@ Vì sao không chọn các bài khác:
 
 ## Quick validation
 
-Nhóm tiến hành phỏng vấn nhanh 4 sinh viên trong trường và chạy mini poll trên 10 sinh viên trong nhóm chat lớp/khoa.
+Nhóm tiến hành phỏng vấn nhanh 4 sinh viên trong trường và chạy mini poll trên 10 sinh viên trong nhóm chat.
 
 | Nguồn | Số người | Tín hiệu xác nhận | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
@@ -127,12 +125,12 @@ Nhóm tìm hiểu các hướng đi và sản phẩm đã có sẵn trên thị 
 |---|---|---|---|---|---|
 | Quizlet (Magic Notes / AI) | https://quizlet.com | Tự tạo Flashcard/Quiz từ ghi chép dán vào | Giao diện làm Quiz/Flashcard học tập cực tốt | Cần tài khoản trả phí; sinh câu hỏi đôi khi chưa trích dẫn chính xác trang slide nguồn | Cần bổ sung tính năng trích dẫn số trang slide nguồn để sinh viên kiểm chứng |
 | Anki Flashcards | https://apps.ankiweb.net | Thuật toán lặp lại ngắt quãng (Spaced Repetition) | Giúp ghi nhớ lâu dài cực kỳ hiệu quả | Tạo thẻ thủ công rất tốn thời gian (2 tiếng/chương) | AI sẽ đóng vai trò tự động tạo bộ câu hỏi input cho sinh viên học |
-| Google NotebookLM | https://notebooklm.google.com | Hỏi đáp & tóm tắt dựa trên tài liệu upload | Đọc tốt PDF lớn, trích dẫn nguồn cực kỳ chính xác | Trả lời dạng hội thoại rời rạc, chưa tự đóng gói thành bộ đề Quiz trắc nghiệm hoàn chỉnh | Pattern tốt: Dùng khả năng trích dẫn nguồn chính xác của NotebookLM kết hợp với cấu trúc sinh đề Quiz |
+| Google NotebookLM | https://notebooklm.google.com | Đọc tài liệu PDF/Slide, sinh Study Guide và gợi ý câu hỏi ôn tập | Đọc PDF lớn cực mượt, RAG chính xác, trích dẫn citation tốt | Đã cho tạo Quiz nhưng ở dạng văn bản tĩnh (note text), thiếu giao diện làm bài tương tác (A/B/C/D, tính giờ, chấm điểm), chưa chuẩn hóa ma trận 30 câu thi thật và không export ra Anki/Quizlet được | Kế thừa khả năng RAG trích dẫn trang nguồn của NotebookLM, nhưng tập trung tạo giá trị ở: (1) Chuẩn hóa bộ 30 câu trắc nghiệm thi thật, (2) Giao diện làm Quiz tương tác (Active Recall), (3) Nút Flag & Re-gen riêng từng câu. |
 
 Research takeaway:
 
 ```text
-Không nên build một Agent tự học hay làm bài thay sinh viên. Hướng hợp lý hơn là Workflow: Rule lấy text từ PDF slide → AI trích xuất key concepts → AI draft bộ 30 câu Quiz có trích dẫn trang slide → Sinh viên review và tiến hành tự ôn tập.
+Không cạnh tranh ở khả năng đọc PDF hay RAG (NotebookLM đã làm quá tốt). Hướng hợp lý hơn là Workflow: Rule đọc PDF slide → AI trích xuất key concepts → AI draft bộ 30 câu Quiz A/B/C/D chuẩn bài thi kèm trang slide → Giao diện làm bài tương tác + Sinh viên review & học Active Recall.
 ```
 
 ---
@@ -142,8 +140,19 @@ Không nên build một Agent tự học hay làm bài thay sinh viên. Hướng
 File nhóm nộp kèm:
 
 ```text
-02-group-problem-statement-workflow.md
+02-group-problem-statement-current-state.png
+02-group-problem-statement-future-state.png
 ```
+
+### Sơ đồ minh họa Workflow
+
+#### Sơ đồ Current State Workflow (Hiện tại — 6 bước, 180 phút/môn)
+
+![Current State Workflow](./02-group-problem-statement-current-state.png)
+
+#### Sơ đồ Future State Workflow (Tương lai — 5 bước, 35 phút/môn)
+
+![Future State Workflow](./02-group-problem-statement-future-state.png)
 
 Nội dung workflow:
 
@@ -189,7 +198,7 @@ Before/after impact:
 | Field | Nội dung |
 |---|---|
 | **Actor** | Sinh viên đại học trước mỗi đợt thi giữa kỳ / cuối kỳ (ôn 5-7 môn). |
-| **Workflow** | Tải slide PDF từ LMS $\rightarrow$ đọc lướt lọc ý $\rightarrow$ ghi chép Study Guide $\rightarrow$ tự tạo câu hỏi Quiz ôn tập $\rightarrow$ tự làm Quiz & dò đáp án. |
+| **Workflow** | Tải slide PDF từ LMS → đọc lướt lọc ý → ghi chép Study Guide → tự tạo câu hỏi Quiz ôn tập → tự làm Quiz & dò đáp án. |
 | **Bottleneck** | Bước tự nghĩ và soạn 20-30 câu hỏi Quiz ôn tập mất 50 phút/môn vì bị bí câu hỏi và câu hỏi tạo ra quá đơn giản hoặc lặp lại. |
 | **Impact** | Tốn khoảng 180 phút/môn (tổng 18-24 tiếng/kỳ thi); sinh viên ôn tập thụ động, dễ sót kiến thức trọng tâm; sát ngày thi chưa kịp học thuộc. |
 | **Success Metric** | Giảm tổng thời gian chuẩn bị và tạo Quiz từ 180 phút xuống dưới 45 phút/môn; tạo bộ 30 câu hỏi sát chuẩn đầu ra môn học. |
@@ -202,7 +211,7 @@ Before/after impact:
 | Mức | Phương án | Khi nào đủ | Rủi ro | Chọn? |
 |---|---|---|---|---|
 | **Rule** | Script trích xuất toàn bộ text từ PDF slide, hiển thị dạng danh sách | Đủ nếu sinh viên chỉ cần đọc lại text thô | Không tự tạo được câu hỏi trắc nghiệm/tự luận phân loại | Không chọn làm toàn bộ, chỉ dùng cho bước đọc PDF |
-| **Workflow** | PDF parser $\rightarrow$ AI trích xuất key concept $\rightarrow$ AI sinh Quiz kèm số trang $\rightarrow$ Sinh viên review | Hợp vì quy trình tuyến tính, AI làm tốt việc đọc hiểu và sinh câu hỏi trắc nghiệm | AI có thể chọn sai đáp án hoặc hiểu sai câu từ trong slide | **Chọn** |
+| **Workflow** | PDF parser → AI trích xuất key concept → AI sinh Quiz kèm số trang → Sinh viên review | Hợp vì quy trình tuyến tính, AI làm tốt việc đọc hiểu và sinh câu hỏi trắc nghiệm | AI có thể chọn sai đáp án hoặc hiểu sai câu từ trong slide | **Chọn** |
 | **Agent** | Agent tự đăng nhập LMS tải slide, tự đánh giá điểm yếu sinh viên, tự giao bài tập mỗi ngày | Chỉ cần nếu hệ thống cần tự lập kế hoạch học tập động và tương tác đa nền tảng | Quá phức tạp, cần quyền truy cập LMS, dễ trượt scope | Chưa chọn |
 
 Mức chọn:
@@ -225,13 +234,13 @@ Vì sao:
 | Field | Nội dung |
 |---|---|
 | **Actor** | Sinh viên đại học trước mỗi đợt thi giữa kỳ / cuối kỳ (ôn 5-7 môn). |
-| **Workflow** | Tải slide LMS $\rightarrow$ Upload tool $\rightarrow$ AI phân tích & trích key concepts $\rightarrow$ AI sinh bộ Quiz kèm trang slide $\rightarrow$ Sinh viên review $\rightarrow$ Sinh viên làm Quiz ôn tập. |
+| **Workflow** | Tải slide LMS → Upload tool → AI phân tích & trích key concepts → AI sinh bộ Quiz kèm trang slide → Sinh viên review → Sinh viên làm Quiz ôn tập. |
 | **Bottleneck** | Bước tự nghĩ và soạn câu hỏi Quiz mất 50 phút/môn, câu hỏi thiếu chất lượng hoặc lặp lại. |
 | **Impact** | Tốn 180 phút/môn (~18-24 tiếng/kỳ thi); chuẩn bị tốn thời gian nên sát ngày thi chưa kịp học thuộc. |
 | **Success Metric** | Giảm tổng thời gian chuẩn bị xuống dưới 35 phút/môn; tạo được 30 câu hỏi Quiz chất lượng có trích dẫn số trang slide; độ chính xác đáp án > 90%. |
 | **Boundary** | AI không thi thay, không tự bịa kiến thức ngoài slide được cung cấp, không thay đổi nội dung chuyên môn của giảng viên. |
 | **AI intervention point** | Sau khi text/slide được trích xuất, AI can thiệp ở bước phân tích trọng tâm và sinh bộ câu hỏi Quiz + đáp án + số trang trích dẫn. |
-| **Mức chọn** | Workflow: Rule đọc PDF $\rightarrow$ AI sinh Quiz $\rightarrow$ Sinh viên review & học. |
+| **Mức chọn** | Workflow: Rule đọc PDF → AI sinh Quiz → Sinh viên review & học. |
 | **Rủi ro & người thật kiểm tra** | Risk: AI tạo câu hỏi ảo giác (hallucination) hoặc trích sai trang slide. Người thật kiểm tra: Sinh viên dành 15 phút review, đối chiếu đáp án với số trang slide nguồn trước khi học. |
 
 ---
@@ -253,8 +262,8 @@ Pilot nhỏ nhất:
 
 Exit / rollback:
 
-- Nếu AI chọn sai đáp án quá 20% số câu hỏi, hoặc trích dẫn sai số trang slide trong 2 lần thử liên tiếp $\rightarrow$ Hạ xuống dùng AI làm công cụ tóm tắt Study Guide (chỉ tóm tắt, không sinh Quiz).
-- Nếu sinh viên vẫn mất > 60 phút để review và sửa câu hỏi AI $\rightarrow$ Quay lại cách dùng đề cương khóa trên + Anki thủ công.
+- Nếu AI chọn sai đáp án quá 20% số câu hỏi, hoặc trích dẫn sai số trang slide trong 2 lần thử liên tiếp → Hạ xuống dùng AI làm công cụ tóm tắt Study Guide (chỉ tóm tắt, không sinh Quiz).
+- Nếu sinh viên vẫn mất > 60 phút để review và sửa câu hỏi AI → Quay lại cách dùng đề cương khóa trên + Anki thủ công.
 
 Decision rationale:
 
